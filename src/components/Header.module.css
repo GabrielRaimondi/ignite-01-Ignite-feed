@@ -1,0 +1,27 @@
+.header {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.header img {
+  height: 3.7rem;
+  width: 4rem;
+}
+
+.header span {
+  font-size: 1.6rem;
+  line-height: 160%;
+  font-weight: 700;
+  color: var(--gray-100);
+  margin-left: 16px;
+}
+
+.logoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  order: 1;
+}
